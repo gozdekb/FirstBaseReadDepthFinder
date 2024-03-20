@@ -1,0 +1,14 @@
+Package: FirstBaseReadDepthFinder
+Type: Package
+Title: Package Finds the Read Depths at the First Bases of Given
+        Amplicons
+Version: 0.1.0
+Author: GozdeKoksalBicakci
+Maintainer: GozdeKoksalBicakci <koksalgozde7@gmail.com>
+Description: This package gets the read depths at the first bases of given amplicons from the sorted SAM files and gives an output excel file. You can get the results of multiple sam files in a single excel file. It is convenient to use this package for amplicon-based NGS analysis.Input bed file must have the same point as both start and end coordinates and this must be the first nucleotide of the amplicon.
+License: No license
+Encoding: UTF-8
+Imports: tidyverse, janitor, openxlsx
+RoxygenNote: 7.3.1
+NeedsCompilation: no
+Packaged: 2024-03-13 08:18:12 UTC; Dell
